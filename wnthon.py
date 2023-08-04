@@ -96,7 +96,6 @@ async def spam_function(event, sandy, cat, sleeptimem, sleeptimet, DelaySpam=Fal
 @wnthon.on(events.NewMessage(outgoing=True, pattern=r"\.الاوامر"))
 async def _(event):
     await event.edit(commands)
-
 await event.client.send_file(
                     event.chat_id,
                     "https://t.me/l_raqq/5",
